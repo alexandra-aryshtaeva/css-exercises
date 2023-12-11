@@ -1,14 +1,37 @@
-.container {
+.container1 {
   padding: 8px;
   display: inline-grid;
-  /* grid-template-columns: 50px 50px 50px 50px;
-  grid-template-rows: 50px 50px 50px 50px; */
   grid-template: 50px 50px / 50px 50px 50px 50px 50px;
   border: solid;
-  column-gap: 16px;
-  row-gap: 16px;
+  grid-gap: 10px;
+  margin-bottom: 100px;
+}
+#cell {
+  background-color: yellow;
+}
+div > div {
+  display: grid;
+  align-items: center;
+  text-align: center;
+  border: solid red 1px;
+}
+.track {
+  background-color: lightblue;
 }
 
-div > div {
-  border: solid red 1px;
+.container {
+  display: inline-grid;
+  border: solid;
+  grid-gap: 10px;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: ;
+}
+div > div > div {
+  display: grid;
+  text-align: center;
+  align-items: center;
+  border: red solid;
+  background-color: orange;
+  font-weight: bold;
+  font-size: 2rem;
 }
