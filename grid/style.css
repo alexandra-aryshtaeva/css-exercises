@@ -42,14 +42,46 @@
   display: inline-grid;
   border: solid;
   grid-gap: 10px;
-
   grid-template: 100px 100px 100px/100px 100px 100px;
+  margin-bottom: 100px;
 }
 .box {
   display: grid;
   align-items: center;
   text-align: center;
-
   border: solid 2px;
   background-color: rgb(127, 207, 207);
+}
+
+.container4 {
+  border: solid;
+  display: inline-grid;
+  grid-template: repeat(5, 100px) / repeat(5, 100px);
+  background-color: aqua;
+  margin-bottom: 200px;
+}
+
+.room {
+  border: solid 2px;
+  text-align: center;
+}
+
+#livroom {
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+#kitchen {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: ;
+  grid-row-end: ;
+}
+#bedroom {
+}
+#bathroom {
+}
+#closet {
 }
