@@ -1,7 +1,7 @@
 .container1 {
-  padding: 8px;
+  padding: 10px;
   display: inline-grid;
-  grid-template: 50px 50px / 50px 50px 50px 50px 50px;
+  grid-template: 50px 50px / 200px 50px 50px 50px 50px;
   border: solid;
   grid-gap: 10px;
   margin-bottom: 100px;
@@ -9,7 +9,7 @@
 #cell {
   background-color: yellow;
 }
-div > div {
+.stuff {
   display: grid;
   align-items: center;
   text-align: center;
@@ -19,14 +19,16 @@ div > div {
   background-color: lightblue;
 }
 
-.container {
+.container2 {
   display: inline-grid;
   border: solid;
   grid-gap: 10px;
   grid-template-columns: 200px 200px 200px;
-  grid-template-rows: ;
+
+  margin-bottom: 100px;
 }
-div > div > div {
+
+.item {
   display: grid;
   text-align: center;
   align-items: center;
@@ -34,4 +36,20 @@ div > div > div {
   background-color: orange;
   font-weight: bold;
   font-size: 2rem;
+}
+
+.container3 {
+  display: inline-grid;
+  border: solid;
+  grid-gap: 10px;
+
+  grid-template: 100px 100px 100px/100px 100px 100px;
+}
+.box {
+  display: grid;
+  align-items: center;
+  text-align: center;
+
+  border: solid 2px;
+  background-color: rgb(127, 207, 207);
 }
